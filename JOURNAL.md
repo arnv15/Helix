@@ -11,10 +11,12 @@ I have been designing a development board to teach me the basics of circuit desi
 
 ![Schematic layout](images/06-04.png)
 
+**Total time spent: 2.5 hours**
+
 # June 6: Finished Schematic design
 
 I finished making my entire Schematic design. I spent quite a bit of time fixing ERC errors and arranging my schematic so it is easier to fix and change in the future. I also learned what pull up and pull down resistors are, why they are needed and how they work.
 
 ![Schematic layout](images/06-06.png)
 
-**Total time spent: 4.5 hours**
+**Total time spent: 2 hours**
