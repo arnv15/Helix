@@ -28,3 +28,11 @@ Today I imported the schematic into the PCB editor and i started to organize all
 ![PCB layout](images/06-07.png)
 
 **Total time spent: 1.5 hours**
+
+# June 8: Route PCB
+
+I spent time routing the main components like the ESP chip, memory, USB-C receptacle, and voltage regulator. The way I thought of organizing this was to keep as much things as I could on the front side of the PCB and then combine vias and routing on the back to connect the rest. I had to reorganize some components so the lines wouldn't be that messy and to have space for all the capacitors. One thing I made sure to keep in mind was to space the components out so I could hand solder most of them together.
+
+![PCB layout](images/06-08.png)
+
+**Total time spent: 2 hours**
