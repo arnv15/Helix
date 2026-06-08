@@ -20,3 +20,11 @@ I finished making my entire Schematic design. I spent quite a bit of time fixing
 ![Schematic layout](images/06-06.png)
 
 **Total time spent: 2 hours**
+
+# June 7: PCB Design
+
+Today I imported the schematic into the PCB editor and i started to organize all my parts. My idea is to make it look like an ESP so it can fit onto a breadboard. This means the GPIO pins are on the sides while the RP2040 is in the middle with the Wi-Fi chip on the bottom and the USB-C receptacle at the top. During this time I was mindful to organize all the parts so when I start to route pieces together, it won't be extremely messy and easy to debug and look at.
+
+![PCB layout](images/06-07.png)
+
+**Total time spent: 1.5 hours**
