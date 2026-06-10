@@ -36,3 +36,11 @@ I spent time routing the main components like the ESP chip, memory, USB-C recept
 ![PCB layout](images/06-08.png)
 
 **Total time spent: 2 hours**
+
+# June 9: Route bottom layer of PCB
+
+Today I finally finished routing my entire PCB. I used a lot of vias to connect some parts together because the paths were already blocked by the front traces, so I had to use a combination of vias, the back trace, and the front trace. I also spent a lot of time making sure that everything was connected and I didn't leave any parts behind, because this is only my second PCB ever designed and I have a lot more components. I also encountered a weird issue where the line would simply not draw coming out from the RP-2040, so I had to delete some traces for the GPIO pins around it and then start again. It kind of worked from there.
+
+![PCB layout](images/06-09.png)
+
+**Total time spent: 2 hours**
