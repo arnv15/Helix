@@ -52,3 +52,11 @@ I spent a WHILE fixing DRC errors. A lot of them were due to things not being pr
 ![PCB layout](images/06-11.png)
 
 **Total time spent: 5 hours**
+
+# June 12: Fix warnings and move around silkscreen components for debugging
+
+Although warnings were not important for me to fix, it still was a good practice to see what was wrong and interpret those. I spent some time understanding all the warnings, and mainly they were warnings about the silkscreen or the labels for each part being covered by the soldering masks. I spent time moving those around because I realized that when I was assembling everything together, it would be important to know where all my parts go together. I made sure to place all the silkscreen components not touching the solder masks. This would also help me debug things when I'm assembling and see where to place components.
+
+![PCB layout](images/06-12.png)
+
+**Total time spent: 2 hours**
