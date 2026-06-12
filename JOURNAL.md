@@ -44,3 +44,11 @@ Today I finally finished routing my entire PCB. I used a lot of vias to connect 
 ![PCB layout](images/06-09.png)
 
 **Total time spent: 2 hours**
+
+# June 11: Fix 92 DRC Errors
+
+I spent a WHILE fixing DRC errors. A lot of them were due to things not being properly connected or the GND track on the F. Cu not being connected to the GND track on the B. Cu. This took a while to fix because I had no idea what the problem was, and once I realized what the problem was, I ended up thinking that the solution was simply to connect one of the nets to a ground GPIO pin. That was also on the back trace, so I'd end up using a via to connect the front trace to the back trace. Another weird issue was that some of the footprints had weird tolerances or clearances, so the ESP chip had a big pad for ground with a lot of holes in it or vias. Its diameter was 0.2 mm, but manufacturing things require the smallest via to be a size of 0.3 mm. I had to go in and manually change the footprint to make all the holes 0.35 mm just for some clearance. Another weird thing was that my LED lights had these weird arcs that we were on the footprint, but on the actual part it did not matter, and so the spacing between that arc and the pads was very less. I later realized that it was not very needed, so I had to go to each LED I had and then change the footprint. I basically removed those arcs, which fixed the spacing issue.
+
+![PCB layout](images/06-11.png)
+
+**Total time spent: 5 hours**
